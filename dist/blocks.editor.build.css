@@ -1,0 +1,30 @@
+/** @file common.scss - Common styles used across all blocks. */
+.wp-block-tcc-column {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+/** @file common.scss - Common styles used across all blocks. */
+.wp-block-tcc-layout-1-column .editor-block-list__block[data-type="tcc/column"] {
+  display: inline-block;
+  width: 100% !important;
+  vertical-align: top;
+  margin: 0; }
+/** @file common.scss - Common styles used across all blocks. */
+.wp-block-tcc-layout-2-column .editor-block-list__block[data-type="tcc/column"] {
+  display: inline-block;
+  width: calc(100% / 2 - 2%) !important;
+  vertical-align: top;
+  margin: 1%; }
+/** @file common.scss - Common styles used across all blocks. */
+.wp-block-tcc-layout-3-column .editor-block-list__block[data-type="tcc/column"] {
+  display: inline-block;
+  width: calc(100% / 3 - 3%) !important;
+  vertical-align: top;
+  margin: 1%; }
+/** @file common.scss - Common styles used across all blocks. */
+.wp-block-tcc-layout-4-column .editor-block-list__block[data-type="tcc/column"] {
+  display: inline-block;
+  width: calc(100% / 4 - 4%) !important;
+  vertical-align: top;
+  margin: 1%; }

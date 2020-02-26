@@ -1,0 +1,11 @@
+
+.wp-block-tcc-layout-4-column {
+
+	// Each of the tcc/column blocks in our InnerBlock component
+	.editor-block-list__block[data-type="tcc/column"] {
+		display: inline-block;
+		width: calc(100% / 4 - 4%) !important;
+		vertical-align: top;
+		margin: 1%;
+	}
+}
